@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
 
@@ -33,19 +34,28 @@
 <body>
     <h3> Adicionar novo usuário </h3>
     <ul id="usersList"></ul>
-    <div class="col-md4">
+    <div class="col-md-4">
         <form>
             <div class="form-group">
-                <label for="nameInput">Nome</label>
+                <label for="nameInput">
+                    <i class="fa fa-user" aria-hidden="true"></i>                        
+                    Nome
+                </label>
                 <input type="text" class="form-control" id="nameInput" placeholder="Nome">
             </div>
             <div class="form-group">
-                <label for="passwordInput">Senha</label>
+                <label for="passwordInput">
+                    <i class="fa fa-key" aria-hidden="true"></i>                        
+                    Senha
+                </label>
                 <input type="text" class="form-control" id="passwordInput" placeholder="Senha">
             </div>
             <button class="btn btn-lg btn-block btn-primary" id="seed">Adicionar</button>
         </form>
     </div>
+    <br>
+    
+    <br>
     <br>
     <a href="src/index.html">Home!</a>
     <!-- Personalizado -->
